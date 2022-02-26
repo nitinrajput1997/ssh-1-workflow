@@ -12,4 +12,5 @@ jobs:
         command: ls -a
         host: ${{ secrets.SSH_HOST }}
         username: ubuntu
-        privateKey: ${{ secrets.SSH_PRIVATE_KEY}}
+        password: ${{ secrets.SSH_PASSWORD }}
+        port: ${{ secrets.SSH_PORT }}

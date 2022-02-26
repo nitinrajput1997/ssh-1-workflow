@@ -11,5 +11,5 @@ jobs:
       with:
         command: ls -a
         host: ${{ secrets.SSH_HOST }}
-        username: garygrossgarten
+        username: ubuntu
         privateKey: ${{ secrets.SSH_PRIVATE_KEY}}

@@ -9,7 +9,7 @@ jobs:
     - name: executing remote ssh
       uses: garygrossgarten/github-action-ssh@release
       with:
-        command: ls -a
+        command: pwd
         host: ${{ secrets.SSH_HOST }}
         username: ubuntu
         password: ${{ secrets.SSH_PASSWORD }}
